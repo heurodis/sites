@@ -1,0 +1,61 @@
+html {
+  font-size: 1.2em;
+}
+
+.seg {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 1.5em;
+  max-width: 800px;
+  align-items: flex-top;
+}
+
+.segsp {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 1.5em;
+  max-width: 800px;
+  align-items: baseline;
+}
+
+.qnum {
+  flex: 0 0 1.5em;
+  margin-right: 0.3em;
+  text-align: left;
+}
+
+.part {
+  flex: 0 0 1.5em;
+  margin-right: 0.3em;
+  text-align: right;
+}
+.main {
+  flex: 1 1 auto;
+}
+
+.mark {
+  flex: 0 0 1.5em;
+  color: grey;
+  text-align: right;
+  align-self: flex-end;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  max-width: 800px;
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+.header {
+  flex: 1 1 auto;
+  font-size: 1.5em;
+}
+
+.supplement {
+  font-size: 0.8em;
+}
